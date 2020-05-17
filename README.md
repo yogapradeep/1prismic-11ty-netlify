@@ -1,4 +1,4 @@
-# Prismic-11ty-Netlify Minimalist Boilerplate
+# Prismic-11ty-Netlify Minimalist Boilerplate / Demo
  
 This is a work-in-progress minimal boilerplate that uses [Prismic CMS](https://prismic.io), [11ty static site generator](https://www.11ty.dev) and is hosted on [Netlify](https://netlify.com). It can be deployed and used for free within the free tiers offered by those services.
 
