@@ -19,6 +19,8 @@ You'll need a free [Netlify](https://netlify.com) and [prismic.io](https://prism
 
 ![API Endpoint](https://raw.githubusercontent.com/martinkz/imagebank/master/prismic-11ty-netlify/netlify-setup-3.png)
 
+### Set up project locally
+
 ### Deploy to Netlify
 
 1. Fork this repository.
@@ -27,3 +29,7 @@ You'll need a free [Netlify](https://netlify.com) and [prismic.io](https://prism
 
 ![Show advanced](https://raw.githubusercontent.com/martinkz/imagebank/master/prismic-11ty-netlify/netlify-setup-1.png)
 ![Add environmental variable](https://raw.githubusercontent.com/martinkz/imagebank/master/prismic-11ty-netlify/netlify-setup-2.png)
+
+4. Deploy the site!
+
+### Set up build/web hook
