@@ -12,8 +12,8 @@ You'll need a free [Netlify](https://netlify.com) and [prismic.io](https://prism
 
 ### Set up Prismic
 
-1. Create a new repository and create 2 custom types called Homepage and Page. 
-2. Add a Title field (API ID 'title') to Homepage and a UID field to Page (API ID 'uid'). You can later change or remove these fields. This is just to get the demo site to work. The UID field on the pages is used as a slug (URL fragment).
+1. In your Prismic account, create a new repository and then create 2 custom types called Homepage and Page. 
+2. Add a Title field (API ID 'title') to Homepage and a UID field to Page (API ID 'uid'). You can later change or remove these custom types or fields. This is just to get the demo site to work. The UID field on the pages is used as a slug (URL fragment).
 3. Create a Homepage and a couple Pages. This is the data 11ty will use to build your site.
 4. Find your API endpoing in your repository settings, you will need it when you're setting up Netlify.
 ![API Endpoint](https://raw.githubusercontent.com/martinkz/imagebank/master/prismic-11ty-netlify/netlify-setup-3.png)
