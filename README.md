@@ -8,11 +8,21 @@ This boilerplace does not include any build tools for compiling/minifying your S
 
 ## How to set up
 
-You'll need a free Netlify and Prismic.io accounts. First set these up.
+You'll need a free [Netlify](https://netlify.com) and [prismic.io](https://prismic.io) accounts. Set these up first.
 
-1. Fork this repository
-2. In Netlify, use the 'New site from Git' button and choose the forked repository you just created
-3. When you get to deploy & build settings, you need to add your Prismic repository as an environmental variable (see screenshots)
+### Set up Prismic
+
+1. Create a new repository and create 2 custom types called Homepage and Page. 
+2. Add a Title field (API ID 'title') to Homepage and a UID field to Page (API ID 'uid'). You can later change or remove these fields. This is just to get the demo site to work. The UID field on the pages is used as a slug (URL fragment).
+3. Create a Homepage and a couple Pages. This is the data 11ty will use to build your site.
+4. Find your API endpoing in your repository settings, you will need it when you're setting up Netlify.
+![API Endpoint](https://raw.githubusercontent.com/martinkz/imagebank/master/prismic-11ty-netlify/netlify-setup-3.png)
+
+### Deploy to Netlify
+
+1. Fork this repository.
+2. In Netlify, use the 'New site from Git' button and choose the forked repository you just created.
+3. When you get to deploy & build settings, you need to add your Prismic repository API endpoint as an environmental variable (see screenshots below).
 
 ![Show advanced](https://raw.githubusercontent.com/martinkz/imagebank/master/prismic-11ty-netlify/netlify-setup-1.png)
 ![Add environmental variable](https://raw.githubusercontent.com/martinkz/imagebank/master/prismic-11ty-netlify/netlify-setup-2.png)
