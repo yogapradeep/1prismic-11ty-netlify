@@ -23,7 +23,7 @@ You'll need a free [Netlify](https://netlify.com) and [prismic.io](https://prism
 
 1. Fork this repository.
 2. In Netlify, use the 'New site from Git' button and choose the forked repository you just created.
-3. When you get to deploy & build settings, you need to add your Prismic repository API endpoint as an environmental variable (see screenshots below).
+3. When you get to deploy & build settings, you need to add your Prismic repository API endpoint as an environmental variable named PRISMIC_REPO_URL (see screenshots below).
 
 ![Show advanced](https://raw.githubusercontent.com/martinkz/imagebank/master/prismic-11ty-netlify/netlify-setup-1.png)
 ![Add environmental variable](https://raw.githubusercontent.com/martinkz/imagebank/master/prismic-11ty-netlify/netlify-setup-2.png)
