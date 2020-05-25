@@ -19,7 +19,7 @@ You'll need a free [Netlify](https://netlify.com) and [prismic.io](https://prism
 
 ![API Endpoint](https://raw.githubusercontent.com/martinkz/imagebank/master/prismic-11ty-netlify/netlify-setup-3.png)
 
-### Set up project locally
+### Set up a local project
 
 1. Clone this repository to your local machine.
 2. Rename the ".env.example" file (located in the main directory) to ".env".
