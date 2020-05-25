@@ -21,9 +21,15 @@ You'll need a free [Netlify](https://netlify.com) and [prismic.io](https://prism
 
 ### Set up project locally
 
+1. Clone this repository to your local machine.
+2. Rename the ".env.example" file (located in the main directory) to ".env".
+3. Edit the .env file to add your Prismic repository API endpoint.
+4. Open terminal and run "npm install" to install all dependencies.
+5. Run "npm run dev" to start a development server or "npm run build" to build your site.
+
 ### Deploy to Netlify
 
-1. Fork this repository.
+1. Upload the local repository you set up to Github (or fork this one).
 2. In Netlify, use the 'New site from Git' button and choose the forked repository you just created.
 3. When you get to deploy & build settings, you need to add your Prismic repository API endpoint as an environmental variable named PRISMIC_REPO_URL.
 
