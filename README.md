@@ -10,7 +10,7 @@ This boilerplace does not include any build tools for compiling/minifying your S
 
 You'll need a free [Netlify](https://netlify.com) and [prismic.io](https://prismic.io) accounts. Set these up first.
 
-### Set up Prismic
+### Set up Prismic repository
 
 1. In your Prismic account, create a new repository. 
 2. In your repository, create 2 custom types called Homepage and Page. Add a Title field (API ID 'title') to Homepage and a UID field to Page (API ID 'uid'). You can later change or remove these custom types and fields. This is just to get the demo site to work. The UID field on the pages is used as a slug (e.g. if you have a page with UID 'about', the page will be accessible at the yoursite.com/about/ URL).
