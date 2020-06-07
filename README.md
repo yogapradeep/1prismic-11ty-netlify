@@ -6,9 +6,11 @@ This boilerplace does not include any build tools for compiling/minifying your S
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/martinkz/1prismic-11ty-netlify)
 
+
 ## How to set up the demo
 
 You'll need a free [Netlify](https://netlify.com) and [prismic.io](https://prismic.io) accounts. Set these up first.
+
 
 ### Set up Prismic repository
 
@@ -19,6 +21,7 @@ You'll need a free [Netlify](https://netlify.com) and [prismic.io](https://prism
 
 ![API Endpoint](https://raw.githubusercontent.com/martinkz/imagebank/master/prismic-11ty-netlify/netlify-setup-3.png)
 
+
 ### Set up a local project
 
 1. Clone this repository to your local machine.
@@ -26,6 +29,7 @@ You'll need a free [Netlify](https://netlify.com) and [prismic.io](https://prism
 3. Edit the .env file to add your Prismic repository API endpoint.
 4. Open terminal and run "npm install" to install all dependencies.
 5. Run "npm run dev" to start a development server or "npm run build" to build your site.
+
 
 ### Deploy to Netlify
 
@@ -37,6 +41,7 @@ You'll need a free [Netlify](https://netlify.com) and [prismic.io](https://prism
 ![Add environmental variable](https://raw.githubusercontent.com/martinkz/imagebank/master/prismic-11ty-netlify/netlify-setup-2.png)
 
 4. Deploy the site!
+
 
 ### Set up a Netlify build hook and a Prismic webhook to trigger it
 
