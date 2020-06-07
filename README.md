@@ -38,7 +38,7 @@ You'll need a free [Netlify](https://netlify.com) and [prismic.io](https://prism
 
 4. Deploy the site!
 
-### Set up build/web hook
+### Set up a Netlify build hook and a Prismic webhook to trigger it
 
 We need to set up a webhook so that when you save a Prismic document, this triggers a Netlify build.
 
