@@ -6,13 +6,12 @@ This boilerplace does not include any build tools for compiling/minifying your S
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/martinkz/1prismic-11ty-netlify)
 
----
 
 ## How to set up the demo
 
 You'll need a free [Netlify](https://netlify.com) and [prismic.io](https://prismic.io) accounts. Set these up first.
 
----
+
 ### Set up Prismic repository
 
 1. In your Prismic account, create a new repository. 
