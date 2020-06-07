@@ -12,7 +12,7 @@ This boilerplace does not include any build tools for compiling/minifying your S
 You'll need a free [Netlify](https://netlify.com) and [prismic.io](https://prismic.io) accounts. Set these up first.
 
 
-### Set up Prismic repository
+## Set up Prismic repository
 
 1. In your Prismic account, create a new repository. 
 2. In your repository, create 2 custom types called Homepage and Page. Add a Title field (API ID 'title') to Homepage and a UID field to Page (API ID 'uid'). You can later change or remove these custom types and fields. This is just to get the demo site to work. The UID field on the pages is used as a slug (e.g. if you have a page with UID 'about', the page will be accessible at the yoursite.com/about/ URL).
@@ -21,8 +21,8 @@ You'll need a free [Netlify](https://netlify.com) and [prismic.io](https://prism
 
 ![API Endpoint](https://raw.githubusercontent.com/martinkz/imagebank/master/prismic-11ty-netlify/netlify-setup-3.png)
 
----
-### Set up a local project
+
+## Set up a local project
 
 1. Clone this repository to your local machine.
 2. Rename the ".env.example" file (located in the main directory) to ".env".
@@ -30,8 +30,8 @@ You'll need a free [Netlify](https://netlify.com) and [prismic.io](https://prism
 4. Open terminal and run "npm install" to install all dependencies.
 5. Run "npm run dev" to start a development server or "npm run build" to build your site.
 
----
-### Deploy to Netlify
+
+## Deploy to Netlify
 
 1. Upload the local repository you set up to Github (or fork this one).
 2. In Netlify, use the 'New site from Git' button and choose the forked repository you just created.
@@ -42,8 +42,8 @@ You'll need a free [Netlify](https://netlify.com) and [prismic.io](https://prism
 
 4. Deploy the site!
 
----
-### Set up a Netlify build hook and a Prismic webhook to trigger it
+
+## Set up a Netlify build hook and a Prismic webhook to trigger it
 
 We need to set up a webhook so that when you save a Prismic document, this triggers a Netlify build.
 
