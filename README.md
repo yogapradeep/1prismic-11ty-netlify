@@ -42,11 +42,13 @@ You'll need a free [Netlify](https://netlify.com) and [prismic.io](https://prism
 
 We need to set up a webhook so that when you save a Prismic document, this triggers a Netlify build.
 
-1. Go to your Netlify site settings and add a webhook under Build & deploy:
+1. Go to your Netlify site settings and add a webhook under Build & deploy, you'll get a URL that triggers the webhook:
 ![Add Netlify webhook](https://raw.githubusercontent.com/martinkz/imagebank/master/prismic-11ty-netlify/netlify-setup-4.png)
 
-2. Netlify will give you a URL to trigger the webhook, the URL needs to be added to the Prismic webhook settings:
+2. Go to your Prismic repository setting and under webhook add the Netlify webhook URL:
 ![Add Prismic webhook](https://raw.githubusercontent.com/martinkz/imagebank/master/prismic-11ty-netlify/netlify-setup-5.png)
+
+3. Done!
 
 
 
