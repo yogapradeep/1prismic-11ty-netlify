@@ -12,7 +12,7 @@ This boilerplace does not include any build tools for compiling/minifying your S
 
 You'll need a free [Netlify](https://netlify.com) and [prismic.io](https://prismic.io) accounts. Set these up first.
 
-
+---
 ### Set up Prismic repository
 
 1. In your Prismic account, create a new repository. 
@@ -22,7 +22,7 @@ You'll need a free [Netlify](https://netlify.com) and [prismic.io](https://prism
 
 ![API Endpoint](https://raw.githubusercontent.com/martinkz/imagebank/master/prismic-11ty-netlify/netlify-setup-3.png)
 
-
+---
 ### Set up a local project
 
 1. Clone this repository to your local machine.
@@ -31,7 +31,7 @@ You'll need a free [Netlify](https://netlify.com) and [prismic.io](https://prism
 4. Open terminal and run "npm install" to install all dependencies.
 5. Run "npm run dev" to start a development server or "npm run build" to build your site.
 
-
+---
 ### Deploy to Netlify
 
 1. Upload the local repository you set up to Github (or fork this one).
@@ -43,7 +43,7 @@ You'll need a free [Netlify](https://netlify.com) and [prismic.io](https://prism
 
 4. Deploy the site!
 
-
+---
 ### Set up a Netlify build hook and a Prismic webhook to trigger it
 
 We need to set up a webhook so that when you save a Prismic document, this triggers a Netlify build.
