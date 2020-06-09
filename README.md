@@ -25,11 +25,9 @@ You'll need a free [Netlify](https://netlify.com) and [prismic.io](https://prism
 ## Set up a local project
 
 1. Clone this repository to your local machine.
-2. Run 'npm install' to install all dependencies. You need a global eleventy install for the "eleventy" commmand to work.
-3. Rename the ".env.example" file (located in the main directory) to ".env".
-4. Edit the .env file to add your Prismic repository API endpoint.
-5. Open terminal and run "npm install" to install all dependencies.
-6. Run "npm run dev" to start a development server or "npm run build" to build your site.
+2. Open terminal and run "npm install" to install all dependencies.
+3. Rename the ".env.example" file (located in the main directory) to ".env" and edit the file to add your Prismic repository API endpoint.
+4. Run "npm run dev" to start a development server or "npm run build" to build your site.
 
 
 ## Deploy to Netlify
