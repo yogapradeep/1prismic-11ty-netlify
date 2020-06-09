@@ -9,6 +9,8 @@ module.exports = function (eleventyConfig) {
 		return JSON.stringify(value, undefined, 2);
 	});
 
+	eleventyConfig.addPassthroughCopy("src/assets/");
+
 	return {
 		dir: {
 			input: "src",

@@ -2,8 +2,8 @@
 	"name": "11ty-test",
 	"version": "0.1.0",
 	"scripts": {
-		"build": "eleventy",
-		"dev": "eleventy --serve"
+		"build": "npx @11ty/eleventy",
+		"dev": "npx @11ty/eleventy --serve"
 	},
 	"repository": {
 		"type": "git",
