@@ -17,7 +17,7 @@ You'll need a free [Netlify](https://netlify.com) and [prismic.io](https://prism
 1. In your Prismic account, create a new repository. 
 2. In your repository, create 2 custom types called Homepage and Page. Add a Title field (API ID 'title') to Homepage and a UID field to Page (API ID 'uid'). You can later change or remove these custom types and fields. This is just to get the demo site to work. The UID field on the pages is used as a slug (e.g. if you have a page with UID 'about', the page will be accessible at the yoursite.com/about/ URL).
 3. Create a Homepage and a couple Pages. This is the data 11ty will use to build your site.
-4. Find your API endpoint in your repository settings, you will need it when you're setting up Netlify.
+4. Find your API endpoint in your repository settings, you will need it when you're setting up Netlify and your local project.
 
 ![API Endpoint](https://raw.githubusercontent.com/martinkz/imagebank/master/prismic-11ty-netlify/netlify-setup-3.png)
 
@@ -25,10 +25,9 @@ You'll need a free [Netlify](https://netlify.com) and [prismic.io](https://prism
 ## Set up a local project
 
 1. Clone this repository to your local machine.
-2. Rename the ".env.example" file (located in the main directory) to ".env".
-3. Edit the .env file to add your Prismic repository API endpoint.
-4. Open terminal and run "npm install" to install all dependencies.
-5. Run "npm run dev" to start a development server or "npm run build" to build your site.
+2. Open terminal and run "npm install" to install all dependencies.
+3. Rename the ".env.example" file (located in the main directory) to ".env" and edit the file to add your Prismic repository API endpoint.
+4. Run "npm run dev" to start a development server or "npm run build" to build your site.
 
 
 ## Deploy to Netlify
