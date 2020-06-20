@@ -7,5 +7,5 @@ layout: layouts/base.njk
 {{ home.title | richText | safe }}
 
 <p>Full data dump:</p>
-{{ prismicData | JSONstringify }}
+{{ prismicData | JSONstringify | safe }}
 
