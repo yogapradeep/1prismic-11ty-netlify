@@ -21,6 +21,8 @@
 
         {{ content | safe }}
 
-        <!-- Current page: {{ page.url | url }} -->
+        <h2>'page' object provided by 11ty</h2>
+
+        {{ page | JSONstringify | safe }}
     </body>
 </html>
