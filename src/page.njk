@@ -8,5 +8,6 @@ permalink: "{{ the_page.uid | slug }}/"
 ---
 
 <h1>{{ the_page.uid }}</h1>
-<p>Current page data dump:</p>
-<pre>{{ the_page | JSONstringify }}</pre>
+<p>Current Prismic document data dump:</p>
+
+{{ the_page | JSONstringify | safe }}

@@ -6,6 +6,6 @@ layout: layouts/base.njk
 
 {{ home.title | richText | safe }}
 
-<p>Full data dump:</p>
-<pre>{{ prismicData | JSONstringify }}</pre>
+<p>Full Prismic data dump:</p>
+{{ prismicData | JSONstringify | safe }}
 

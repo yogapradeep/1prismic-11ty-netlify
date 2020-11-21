@@ -6,8 +6,10 @@ module.exports = function (eleventyConfig) {
 	});
 
 	eleventyConfig.addNunjucksFilter("JSONstringify", function (value) {
-		return JSON.stringify(value, undefined, 2);
+		return `<pre>${JSON.stringify(value, undefined, 2)}</pre>`;
 	});
+
+	eleventyConfig.addPassthroughCopy("src/assets/");
 
 	return {
 		dir: {

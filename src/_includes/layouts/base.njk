@@ -13,12 +13,16 @@
         <meta property="og:url" content="">
         <meta property="og:site_name" content="">
         <meta name="twitter:card" content="summary_large_image">
+        
+        <link href="/assets/styles/main.css" rel="stylesheet">
     </head>
 
     <body>
 
         {{ content | safe }}
 
-        <!-- Current page: {{ page.url | url }} -->
+        <h2>'page' object provided by 11ty</h2>
+
+        {{ page | JSONstringify | safe }}
     </body>
 </html>
