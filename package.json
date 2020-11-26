@@ -15,11 +15,11 @@
 	"author": "Martin Kozhuharov",
 	"license": "ISC",
 	"devDependencies": {
-		"@11ty/eleventy": "^0.10.0",
+		"@11ty/eleventy": "^0.11.1",
 		"dotenv": "^8.2.0"
 	},
 	"dependencies": {
-		"prismic-dom": "^2.1.0",
-		"prismic-javascript": "^2.1.5"
+		"prismic-dom": "^2.2.4",
+		"prismic-javascript": "^3.0.2"
 	}
 }
