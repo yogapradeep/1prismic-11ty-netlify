@@ -3,3 +3,5 @@
   command = "eleventy"
   functions = "functions"
   
+[template.environment]
+  PRISMIC_REPO_URL = ""
