@@ -4,4 +4,7 @@
   functions = "functions"
   
 [template.environment]
-  PRISMIC_REPO_URL = ""
+  PRISMIC_REPO_URL = "Prismic Repository URL"
+
+[template]
+incoming-hooks = ["Prismic Webhook"]
