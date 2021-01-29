@@ -1,0 +1,22 @@
+---
+layout: layouts/base.njk
+tags:
+  - allPosts
+pagination:
+    data: prismicData.posts
+    size: 1
+    alias: post
+    addAllPagesToCollections: true
+permalink: "post/{{ post.uid | slug }}/"
+---
+{% set postdata = post.data %}
+{% set image = postdata.postimage %}
+{% set fixeddimUrl = image.mobpostimg.url %}
+
+<h1>{{ post.uid }}</h1>
+{{ postdata.title | richText | safe }}
+<img src={{fixeddimUrl}} alt="{{image.alt}}"/> 
+<img src={{postdata.postimage.url}} /> 
+<p>Current Prismic document data dump:</p>
+
+{{ post | JSONstringify | safe }}

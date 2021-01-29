@@ -3,9 +3,23 @@ layout: layouts/base.njk
 ---
 
 {% set home = prismicData["homepage"][0].data %}
-
+{% set image = home.coverimage %}
+{% set mainUrl = image.url %}
+{% set fixeddimUrl = image.fixeddim.url %}
 {{ home.title | richText | safe }}
+<h5>{{home.keytext}}</h5>
+<!-- <img src={{home.coverimage.url}} />  -->
+<img src={{image.url}} alt="{{image.alt}}"/> 
+<img src={{fixeddimUrl}} alt="{{image.alt}}"/> 
 
-<p>Full Prismic data dump:</p>
-{{ prismicData | JSONstringify | safe }}
 
+{% set postslist = collections.allPosts  %}
+<div id="content_p" class="lg:mx-auto paddingtop w-680">
+<div   class=" fliter-container postlist" style="counter-reset: start-from ">
+ {% for post in postslist | reverse %}
+ {% set currentPost = post.data.post %}
+ {% set postdata = currentPost.data %}
+ {{postdata.title | richText | safe }}
+{% endfor %}
+</div>
+</div>
